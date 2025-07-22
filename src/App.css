@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -35,8 +39,22 @@
 
 .card {
   padding: 2em;
+  border: 1px solid #d0e9c6;
+  background-color: #f6fff0;
+  border-radius: 16px;
 }
+
 
 .read-the-docs {
   color: #888;
+}
+
+
+.theme-green {
+  color: var(--primary-green);
+}
+
+.bg-theme-green {
+  background-color: var(--primary-green);
+  color: white;
 }
